@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    color: #fff;
+}
+.red {
+    color: #F50000;
+}
+.orange {
+    color: #FC9800;
+}
+.green {
+    color: #00FF00;
+}
+.purple {
+    color: #FF00FF;
+}
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/hoang-hon-phu-quoc.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.main-heading{
+    margin: 32px 0;
+}
+.main-heading h1 {
+    color: #FFFF00;
+    text-align: center;
+}
+.main-content {
+    margin: 0 200px;
+}
+.main-content p {
+    margin: 15px 0;
+    text-indent: 64px;
+}
+.main-content p:first-child {
+    font-style: italic;
+}
